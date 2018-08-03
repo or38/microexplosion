@@ -1,0 +1,10 @@
+489.47	T gas (K)
+100000.0	P gas (Pa)
+25.0	Body radius (micrometre)
+363.0	Initial temperature (K)
+0.15	water fraction (vol)
+0.0001	Water Fourier number
+100.0	Time end (Fourier)
+200	Number of Lambdas for temperature
+3000	Number of layers in the droplet
+1	Report print frequency
