@@ -14,6 +14,7 @@ https://github.com/or38/microexplosion
 #include <iostream> 
 #include <sstream>
 #include <vector>
+#include <cstring>
 
 #define PI 3.1415926535897932384626433832795
 #define R_air 287.01625988193461525183829875375
