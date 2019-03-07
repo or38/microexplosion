@@ -7,7 +7,17 @@ You may use, distribute and modify this code under the terms of the MIT license
 Please see LICENSE file in the repository https://github.com/or38/microexplosion
 
 If you use the software, please cite
-https://github.com/or38/microexplosion
+S.S. Sazhin, O. Rybdylova, C. Crua, M. Heikal, M.A. Ismael, Z. Nissar, A. Rashid B.A. Aziz,
+A simple model for puffing/micro-explosions in water-fuel emulsion droplets,
+International Journal of Heat and Mass Transfer, Volume 131, 2019, Pages 815-821,
+doi.org/10.1016/j.ijheatmasstransfer.2018.11.065
+
+The details of the model implemented in the code are in the paper:
+S.S. Sazhin, O. Rybdylova, C. Crua, M. Heikal, M.A. Ismael, Z. Nissar, A. Rashid B.A. Aziz,
+A simple model for puffing/micro-explosions in water-fuel emulsion droplets,
+International Journal of Heat and Mass Transfer, Volume 131, 2019, Pages 815-821,
+doi.org/10.1016/j.ijheatmasstransfer.2018.11.065
+
 ******************************************************************/
 
 
@@ -249,7 +259,7 @@ int Heat_Mass()
 	//Spalding head and mass trasnfer numbers
 	//-------------------------------------------------------------------------
 	// Calculate total evaporation rate
-	T_ref = (T_gas + 2.0 * Temperature_fuel[N_INT]) / 3.0; //Sazhin, Progress in Energy and Combustion Science 32 (2006) 162–214 
+	T_ref = (T_gas + 2.0 * Temperature_fuel[N_INT]) / 3.0; //Sazhin, Progress in Energy and Combustion Science 32 (2006) 162â€“214 
 	double rho_gas_s = P_gas / (R_air*T_ref); // ideal gas law
 	//rho_gas_s = 1.225;
 //	double c_p_die = (0.2979 + 1.4394*(T_ref / 300.0) - 0.1351*(T_ref / 300.0)*(T_ref / 300.0))*1000.0; //n-dodecane vapour Abramzon, B. and S. Sazhin, Convective vaporization of a fuel droplet with thermal radiation absorption. Fuel, 2006. 85(1): p. 32-46.
