@@ -1,4 +1,4 @@
-This is code for simulation of water in n-dodecane droplet heating to predict times to puffing
+This is a code for simulation of water in n-dodecane droplet heating to predict times to puffing
 Copyright (c) 2018 Oyuna Rybdylova - All Rights Reserved
 
 You may use, distribute and modify this code under the terms of the MIT license
